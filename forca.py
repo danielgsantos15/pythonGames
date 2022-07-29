@@ -5,7 +5,6 @@ import random
 def jogar():
     imprime_mensagem_abertura()
     palavra_secreta = carrega_palavra_secreta()
-
     letras_acertadas = inicializa_letras_acertadas(palavra_secreta)
     print(letras_acertadas)
 
@@ -150,7 +149,7 @@ def imprime_mensagem_vencedor():
 
 
 def imprime_mensagem_perdedor(palavra_secreta):
-    print("Puxa, você foi enforcado!")
+    print("Perdeu, otário!")
     print("A palavra era {}".format(palavra_secreta))
     print("    _______________         ")
     print("   /               \       ")
